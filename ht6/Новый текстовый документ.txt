@@ -1,0 +1,14 @@
+Binary Image Processing
+[np.int32(0), np.int32(0), np.int32(740), np.int32(370), np.int32(200879)]
+Monochrome Image Processing
+[np.int32(59), np.int32(54), np.int32(114), np.int32(100), np.int32(416)]
+[np.int32(197), np.int32(54), np.int32(104), np.int32(99), np.int32(363)]
+[np.int32(317), np.int32(55), np.int32(116), np.int32(101), np.int32(429)]
+[np.int32(457), np.int32(54), np.int32(100), np.int32(100), np.int32(394)]
+[np.int32(582), np.int32(54), np.int32(101), np.int32(102), np.int32(370)]
+[np.int32(57), np.int32(211), np.int32(101), np.int32(101), np.int32(400)]
+[np.int32(173), np.int32(212), np.int32(131), np.int32(100), np.int32(394)]
+[np.int32(329), np.int32(212), np.int32(99), np.int32(99), np.int32(382)]
+[np.int32(455), np.int32(212), np.int32(100), np.int32(100), np.int32(389)]
+[np.int32(582), np.int32(212), np.int32(101), np.int32(99), np.int32(372)]
+Decorated Binary Image Processing

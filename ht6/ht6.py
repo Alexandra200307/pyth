@@ -111,10 +111,15 @@ if __name__ == '__main__':
     for i in range(len(area)):
         print([x[i], y[i], w[i], h[i], area[i]])
 
+    print("Monochrome Image Processing")
+    mon_segm = MonochromeImage()
+    (x, y, w, h, area) = mon_segm.template_method(cv2.imread('./data/1.jpg', cv2.IMREAD_GRAYSCALE))
+    for i in range(len(area)):
+        print([x[i], y[i], w[i], h[i], area[i]])
+
     print("Decorated Binary Image Processing")
     filt_bin = FilteredAnalysis(BinaryImage())
     (x, y, w, h, area) = filt_bin.template_method(cv2.imread('./data/1.jpg', cv2.IMREAD_GRAYSCALE))
     for i in range(len(area)):
         print([x[i], y[i], w[i], h[i], area[i]])
-
     

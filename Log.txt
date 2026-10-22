@@ -1,0 +1,32 @@
+2026-10-16 12:19:34.523 | INFO | Logger | LOG-INIT | demo-user | Сессия логгера создана | -
+2026-10-16 12:19:34.523 | INFO | Person | PERSON-CREATE | demo-user | Создан Person: Петров Иван  | -
+2026-10-16 12:19:34.523 | INFO | Person | PERSON-CREATE | demo-user | Создан Person: Петрова Мария  | -
+2026-10-16 12:19:34.523 | INFO | Person | PERSON-CREATE | demo-user | Создан Person: Петров Алексей Иванович | -
+2026-10-16 12:19:34.524 | DEBUG | Family | FAMILY-ADD-PARTNER | demo-user | Партнёр добавлен: Person(Петровы Иван ) | -
+2026-10-16 12:19:34.524 | DEBUG | Family | FAMILY-ADD-PARTNER | demo-user | Партнёр добавлен: Person(Петровы Мария ) | -
+2026-10-16 12:19:34.524 | DEBUG | Family | FAMILY-ADD-CHILD | demo-user | Ребёнок добавлен: Person(Петровы Алексей Иванович) | -
+2026-10-16 12:19:34.525 | INFO | House | HOUSE-ADD-FAMILY | demo-user | Семья Петровы заселена в ул. Ленина, 1 | -
+2026-10-16 12:19:34.525 | DEBUG | City | CITY-PLACE-DONE | demo-user | Попытка заселения семьи Петровы в ул. Ленина, 1 завершена | -
+2026-10-16 12:19:34.528 | ERROR | Person | PERSON-BAD-GENDER | demo-user | Ожидаемая ошибка валидации | Traceback (most recent call last):
+  File "c:\Users\A\Desktop\Untitled-1.py", line 744, in <module>
+    Person("Х", "Y", "cat", 2000, logger=logger)
+  File "c:\Users\A\Desktop\Untitled-1.py", line 126, in __init__
+    raise PersonError("Неверный пол: %r" % (gender,))
+PersonError: Неверный пол: 'cat'
+
+2026-10-16 12:19:34.529 | INFO | House | HOUSE-ADD-FAMILY | demo-user | Семья Петровы заселена в Малый | -
+2026-10-16 12:19:34.529 | ERROR | House | HOUSE-OVERFLOW | demo-user | Дом Малый переполнен (1/1) | -
+2026-10-16 12:19:34.529 | DEBUG | ImageConverter | CVT-F | demo-user | mono_to_binary завершено | -
+2026-10-16 12:19:34.530 | ERROR | Image | IMG-OOB | demo-user | Выход за границы | Traceback (most recent call last):
+  File "c:\Users\A\Desktop\Untitled-1.py", line 768, in <module>
+    mono.get(5, 5)
+  File "c:\Users\A\Desktop\Untitled-1.py", line 349, in get
+    raise ImageError("Выход за границы изображения: (%r, %r)" % (x, y))
+ImageError: Выход за границы изображения: (5, 5)
+
+2026-10-16 12:19:34.530 | DEBUG | ImageConverter | CVT-E | demo-user | mono_to_color завершено | -
+2026-10-16 12:19:34.531 | DEBUG | ImageIO | IMG-SAVE | demo-user | save('binary.txt') завершён | -
+2026-10-16 12:19:34.538 | DEBUG | ImageIO | IMG-LOAD | demo-user | load('binary.txt') завершён | -
+2026-10-16 12:19:34.538 | DEBUG | ImageIO | IMG-LOAD | demo-user | load('binary.txt') завершён | -
+2026-10-16 12:19:34.539 | DEBUG | ImageIO | IMG-LOAD | demo-user | load('binary.txt') завершён | -
+2026-10-16 12:19:34.539 | INFO | Main | APP-END | demo-user | Программа завершена | -

@@ -1,0 +1,4 @@
+Сравнение результатов (MSE):
+Linear vs Spiral: 0.00000
+Linear vs Zigzag: 0.00000
+Linear vs Peano:  0.00000
